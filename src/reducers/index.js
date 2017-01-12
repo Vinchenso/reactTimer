@@ -1,3 +1,9 @@
 // Set up your root reducer here...
  import { combineReducers } from 'redux';
- export default combineReducers;
+ import counter from './counterReducer';
+
+ const rootReducer = combineReducers({
+   counter
+ });
+
+ export default rootReducer;
