@@ -30,3 +30,7 @@ render(
     <App/>
   </Provider>, document.getElementById('app')
 );
+
+store.dispatch({type: 'INCREMENT_TIMER'});
+
+

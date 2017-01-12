@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import Timer from './Timer';
+import Timer from '../containers/Timer';
 
-class App extends Component {
+class App extends Component{
   render() {
     return (
       <div>

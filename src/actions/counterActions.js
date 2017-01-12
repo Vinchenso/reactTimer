@@ -1,9 +1,10 @@
 import * as types from './actionTypes';
 
-export function incrementTimer(payload) {
-  return { type: types.INCREMENT_TIMER, payload};
+export function incrementTimer() {
+  return { type: types.INCREMENT_TIMER };
+
 }
 
-export function decrementTimer(payload) {
-  return { type: types.DECREMENT_TIMER, payload};
+export function decrementTimer() {
+  return { type: types.DECREMENT_TIMER };
 }
