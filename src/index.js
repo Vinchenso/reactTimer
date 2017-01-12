@@ -10,7 +10,7 @@ import configureStore from './store/configureStore';
 //require('./favicon.ico'); // Tell webpack to load favicon.ico
 //import './styles/styles.scss'; // Yep, that's right. You can import SASS/CSS files too! Webpack will run the associated loader and plug this into the page.
 //import { syncHistoryWithStore } from 'react-router-redux';
-
+import '../node_modules/semantic-ui-css/semantic.min.css';
 import App from './components/App';
 
 const store = configureStore();
